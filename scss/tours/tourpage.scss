@@ -1,6 +1,6 @@
 .tour-page {
     max-width: $content-width;
-    background-color: antiquewhite;
+    // background-color: antiquewhite;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 100px;
@@ -152,16 +152,23 @@
                 margin-right: 3px;
             }
         }
+    }
 
-        .booknow {
-            margin-top: 150px;
-            height: 40pxx;
-            background-color: goldenrod;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 12px 22px;
-            border-radius: 25px;
+    .tp-button {
+        height: 40px;
+        width: 133px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: $site-blue;
+        border-radius: 30px;
+        margin: auto;
+        margin-bottom: 100px;
+    
+        a {
+            text-decoration: none;
+            color: $site-white;
         }
     }
 }
+

@@ -1119,7 +1119,6 @@ footer .footer-content .socials .socialIcons {
 }
 .tour-page {
   max-width: 980px;
-  background-color: antiquewhite;
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 100px;
@@ -1351,15 +1350,20 @@ footer .footer-content .socials .socialIcons {
   margin-left: 3px;
   margin-right: 3px;
 }
-.tour-page .days .booknow {
-  margin-top: 150px;
-  height: 40pxx;
-  background-color: goldenrod;
+.tour-page .tp-button {
+  height: 40px;
+  width: 133px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 12px 22px;
-  border-radius: 25px;
+  justify-content: space-evenly;
+  background-color: #79ADDC;
+  border-radius: 30px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.tour-page .tp-button a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=styles.css.map */
