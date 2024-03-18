@@ -991,21 +991,34 @@ footer .footer-content .socials .socialIcons {
 }
 .tours {
   max-width: 980px;
-  background-color: antiquewhite;
   margin: 0 auto;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
-
-.tour-specials {
+.tours .tour-header {
+  width: 100%;
+  height: 200px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tours-header.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.tours .tour-header .tour-title {
+  font-family: GSmedreg;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 65px;
+  color: #ffffff;
+}
+.tours .tour-specials {
   min-height: 400px;
 }
-.tour-specials .tsL {
+.tours .tour-specials .tsL {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
-.tour-specials .box {
+.tours .tour-specials .box {
   width: 250px;
   height: 350px;
   background-color: hotpink;
@@ -1014,9 +1027,9 @@ footer .footer-content .socials .socialIcons {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 50px;
+  margin-top: 50px;
 }
-.tour-specials .box .site-button {
+.tours .tour-specials .box .site-button {
   width: 133px;
   height: 40px;
   background-color: #79ADDC;
@@ -1026,7 +1039,12 @@ footer .footer-content .socials .socialIcons {
   padding: 5px 10px;
   border-radius: 30px;
 }
-.tour-specials .box .promo-button {
+.tours .tour-specials .box .site-button a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+}
+.tours .tour-specials .box .promo-button {
   width: 133px;
   height: 40px;
   background-color: #79ADDC;
@@ -1036,67 +1054,67 @@ footer .footer-content .socials .socialIcons {
   padding: 5px 10px;
   border-radius: 30px;
 }
-.tour-specials .box .tour-name {
+.tours .tour-specials .box .tour-name {
   font-size: 60px;
   margin-bottom: 10px;
   font-weight: bold;
   font-family: GScond;
 }
-.tour-specials .box .tour-price {
+.tours .tour-specials .box .tour-price {
   font-size: 30px;
   margin-bottom: 40px;
   font-weight: bold;
   font-family: GScond;
 }
-.tour-specials .tourOne {
+.tours .tour-specials .tourOne {
   background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../images/tour-01.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-.tour-specials .tourTwo {
+.tours .tour-specials .tourTwo {
   background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../images/tour-02.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-.tour-specials .tourThree {
+.tours .tour-specials .tourThree {
   background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../images/tour-03.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-.tour-specials .tourFour {
+.tours .tour-specials .tourFour {
   background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../images/tour-04.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-.tour-specials .tourFive {
+.tours .tour-specials .tourFive {
   background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../images/tour-05.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-.tour-specials .tourSix {
+.tours .tour-specials .tourSix {
   background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../images/tour-06.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-.tour-specials .tourSeven {
+.tours .tour-specials .tourSeven {
   background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../images/tour-07.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-.tour-specials .tourEight {
+.tours .tour-specials .tourEight {
   background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../images/tour-08.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-.tour-specials .tourNine {
+.tours .tour-specials .tourNine {
   background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../images/tour-09.jpg");
   background-size: cover;
   background-position: center;

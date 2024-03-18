@@ -1,73 +1,97 @@
 .tours {
     max-width: $content-width;
     // min-height: 400px;
-    background-color: antiquewhite;
+    // background-color: antiquewhite;
     margin: 0 auto;
     margin-top: 50px;
-    margin-bottom: 50px;
-}
-.tour-specials {
-    // background-color: darkseagreen;
-    min-height: 400px;
+    margin-bottom: 100px;
 
-    .tsL {
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        
-    }
+    .tour-header {
+        width: 100%;
+        height: 200px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../images/tours-header.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
 
-    .box {
-        @include tour-box();
-        margin-bottom: 50px;
-
-        .site-button {
-            @include site-buy-button();
-        }
-        .promo-button {
-            @include site-buy-button();
-        }
-
-        .tour-name {
+        .tour-title {
+            font-family: GSmedreg;
             font-size: 60px;
-            margin-bottom: 10px;
-            font-weight: bold;
-            font-family: GScond;
-        }
-
-        .tour-price {
-            font-size: 30px;
-            margin-bottom: 40px;
-            font-weight: bold;
-            font-family: GScond;
+            text-align: center;
+            padding-top: 65px;
+            color: $site-white;
         }
     }
 
-    .tourOne {
-        @include add-background-image("../images/tour-01.jpg")
-    }
-    .tourTwo {
-        @include add-background-image("../images/tour-02.jpg")
-    }
-    .tourThree {
-        @include add-background-image("../images/tour-03.jpg")
-    }
-    .tourFour {
-        @include add-background-image("../images/tour-04.jpg")
-    }
-    .tourFive {
-        @include add-background-image("../images/tour-05.jpg")
-    }
-    .tourSix {
-        @include add-background-image("../images/tour-06.jpg")
-    }
-    .tourSeven {
-        @include add-background-image("../images/tour-07.jpg")
-    }
-    .tourEight {
-        @include add-background-image("../images/tour-08.jpg")
-    }
-    .tourNine {
-        @include add-background-image("../images/tour-09.jpg")
+    .tour-specials {
+        // background-color: darkseagreen;
+        min-height: 400px;
+
+        .tsL {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            
+        }
+
+        .box {
+            @include tour-box();
+            margin-top: 50px;
+
+            .site-button {
+                @include site-buy-button();
+                
+                a {
+                    text-decoration: none;
+                    color: $site-white;
+                    font-size: 15px
+                }
+            }
+            .promo-button {
+                @include site-buy-button();
+            }
+
+            .tour-name {
+                font-size: 60px;
+                margin-bottom: 10px;
+                font-weight: bold;
+                font-family: GScond;
+            }
+
+            .tour-price {
+                font-size: 30px;
+                margin-bottom: 40px;
+                font-weight: bold;
+                font-family: GScond;
+            }
+        }
+
+        .tourOne {
+            @include add-background-image("../images/tour-01.jpg")
+        }
+        .tourTwo {
+            @include add-background-image("../images/tour-02.jpg")
+        }
+        .tourThree {
+            @include add-background-image("../images/tour-03.jpg")
+        }
+        .tourFour {
+            @include add-background-image("../images/tour-04.jpg")
+        }
+        .tourFive {
+            @include add-background-image("../images/tour-05.jpg")
+        }
+        .tourSix {
+            @include add-background-image("../images/tour-06.jpg")
+        }
+        .tourSeven {
+            @include add-background-image("../images/tour-07.jpg")
+        }
+        .tourEight {
+            @include add-background-image("../images/tour-08.jpg")
+        }
+        .tourNine {
+            @include add-background-image("../images/tour-09.jpg")
+        }
     }
 }
