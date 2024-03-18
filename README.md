@@ -1,7 +1,7 @@
-# Homework 5 Repo
+# Homework 6 Repo
 
-This is my homework-five repo for N215.
+This is my homework-six repo for N215.
 
-## Underneath is my hw5 link
+## Underneath is my hw6 link
 
-https://in-info-web4.informatics.iupui.edu/~mpegram/N215/homework-five/about.html
+https://in-info-web4.informatics.iupui.edu/~mpegram/N215/homework-six/about.html
