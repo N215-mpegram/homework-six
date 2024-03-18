@@ -1030,13 +1030,11 @@ footer .footer-content .socials .socialIcons {
   margin-top: 50px;
 }
 .tours .tour-specials .box .site-button {
-  width: 133px;
-  height: 40px;
   background-color: #79ADDC;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5px 10px;
+  padding: 12px 22px;
   border-radius: 30px;
 }
 .tours .tour-specials .box .site-button a {
@@ -1045,13 +1043,11 @@ footer .footer-content .socials .socialIcons {
   font-size: 15px;
 }
 .tours .tour-specials .box .promo-button {
-  width: 133px;
-  height: 40px;
   background-color: #79ADDC;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5px 10px;
+  padding: 12px 22px;
   border-radius: 30px;
 }
 .tours .tour-specials .box .tour-name {

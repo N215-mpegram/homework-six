@@ -18,12 +18,12 @@
 }
 
 @mixin site-buy-button($bg-color: $site-blue, $radius: 30px) {
-    width: 133px;
-    height: 40px;
+    // width: 133px;
+    // height: 40px;
     background-color: $bg-color;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5px 10px;
+    padding: 12px 22px;
     border-radius: $radius;
 }
