@@ -1,0 +1,65 @@
+.tours {
+    max-width: $content-width;
+    // min-height: 400px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    margin-top: 48px;
+    margin-bottom: 100px;
+}
+.tour-specials {
+    background-color: darkseagreen;
+    min-height: 400px;
+
+    .box {
+        @include tour-box();
+
+        .site-button {
+            @include site-buy-button();
+        }
+        .promo-button {
+            @include site-buy-button();
+        }
+
+        .tour-name {
+            font-size: 44px;
+            margin-bottom: 10px;
+            font-weight: bold;
+            font-family: GScond;
+        }
+
+        .tour-price {
+            font-size: 20px;
+            margin-bottom: 40px;
+            font-weight: bold;
+            font-family: GScond;
+        }
+    }
+
+    .tourOne {
+        @include add-background-image("../images/tour-01.jpg")
+    }
+    .tourTwo {
+        @include add-background-image("../images/tour-02.jpg")
+    }
+    .tourThree {
+        @include add-background-image("../images/tour-03.jpg")
+    }
+    .tourFour {
+        @include add-background-image("../images/tour-04.jpg")
+    }
+    .tourFive {
+        @include add-background-image("../images/tour-05.jpg")
+    }
+    .tourSix {
+        @include add-background-image("../images/tour-06.jpg")
+    }
+    .tourSeven {
+        @include add-background-image("../images/tour-07.jpg")
+    }
+    .tourEight {
+        @include add-background-image("../images/tour-08.jpg")
+    }
+    .tourNine {
+        @include add-background-image("../images/tour-09.jpg")
+    }
+}

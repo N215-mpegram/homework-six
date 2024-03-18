@@ -1,0 +1,29 @@
+@mixin tour-box($imageURL: "") {
+    width: 250px;
+    height: 350px;
+    background-color: hotpink;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+@mixin add-background-image($imageURL: "") {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)),url($imageURL);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@mixin site-buy-button($bg-color: $site-blue, $radius: 30px) {
+    width: 133px;
+    height: 40px;
+    background-color: $bg-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    border-radius: $radius;
+}
