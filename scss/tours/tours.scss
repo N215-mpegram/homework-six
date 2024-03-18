@@ -47,9 +47,6 @@
                     font-size: 15px
                 }
             }
-            .promo-button {
-                @include site-buy-button();
-            }
 
             .tour-name {
                 font-size: 60px;

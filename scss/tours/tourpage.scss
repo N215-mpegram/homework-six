@@ -123,4 +123,45 @@
             @include tour-page-images("../images/tour-uae/uae-tour-03.jpg")
         }
     }
+
+    .days {
+        min-height: 600px;
+        // background-color: lightsalmon;
+        margin-top: 30px;
+
+        .day {
+            // background-color: darkgrey;
+            margin-bottom: 70px;
+
+            .day-line {
+                border-bottom: 3px solid $site-black;
+                width: 180px;
+                margin-top: -15px;
+                margin-bottom: 35px;
+            }
+            .days-header-font {
+                font-family: PnCONthin;
+                font-size: 60px;
+                color: $site-black;
+            }
+            .days-para-font {
+                font-family: GSmedreg;
+                font-size: 16px;
+                color: $site-black;
+                margin-left: 3px;
+                margin-right: 3px;
+            }
+        }
+
+        .booknow {
+            margin-top: 150px;
+            height: 40pxx;
+            background-color: goldenrod;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px 22px;
+            border-radius: 25px;
+        }
+    }
 }

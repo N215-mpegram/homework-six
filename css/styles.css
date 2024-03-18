@@ -1042,14 +1042,6 @@ footer .footer-content .socials .socialIcons {
   color: #ffffff;
   font-size: 15px;
 }
-.tours .tour-specials .box .promo-button {
-  background-color: #79ADDC;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 12px 22px;
-  border-radius: 30px;
-}
 .tours .tour-specials .box .tour-name {
   font-size: 60px;
   margin-bottom: 10px;
@@ -1333,6 +1325,41 @@ footer .footer-content .socials .socialIcons {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+.tour-page .days {
+  min-height: 600px;
+  margin-top: 30px;
+}
+.tour-page .days .day {
+  margin-bottom: 70px;
+}
+.tour-page .days .day .day-line {
+  border-bottom: 3px solid #000000;
+  width: 180px;
+  margin-top: -15px;
+  margin-bottom: 35px;
+}
+.tour-page .days .day .days-header-font {
+  font-family: PnCONthin;
+  font-size: 60px;
+  color: #000000;
+}
+.tour-page .days .day .days-para-font {
+  font-family: GSmedreg;
+  font-size: 16px;
+  color: #000000;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.tour-page .days .booknow {
+  margin-top: 150px;
+  height: 40pxx;
+  background-color: goldenrod;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 22px;
+  border-radius: 25px;
 }
 
 /*# sourceMappingURL=styles.css.map */
