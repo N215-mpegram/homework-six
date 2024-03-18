@@ -1121,4 +1121,13 @@ footer .footer-content .socials .socialIcons {
   background-repeat: no-repeat;
 }
 
+@media all and (max-width: 1000px) {
+  .tours {
+    width: 90%;
+  }
+  .tours .tour-specials .tsL {
+    flex-direction: column;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */

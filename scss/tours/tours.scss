@@ -95,3 +95,15 @@
         }
     }
 }
+
+@media all and (max-width: 1000px) {
+    .tours {
+        width: 90%;
+
+        .tour-specials {
+            .tsL {
+                flex-direction: column;                
+            }
+        }
+    }
+}
