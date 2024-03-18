@@ -45,3 +45,12 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+@mixin tour-page-header($imageURL: "") {
+    background-image: url($imageURL);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 410px;
+    position: relative;
+}
