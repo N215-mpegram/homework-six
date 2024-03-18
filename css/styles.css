@@ -993,13 +993,17 @@ footer .footer-content .socials .socialIcons {
   max-width: 980px;
   background-color: antiquewhite;
   margin: 0 auto;
-  margin-top: 48px;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .tour-specials {
-  background-color: darkseagreen;
   min-height: 400px;
+}
+.tour-specials .tsL {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .tour-specials .box {
   width: 250px;
@@ -1010,6 +1014,7 @@ footer .footer-content .socials .socialIcons {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .tour-specials .box .site-button {
   width: 133px;
@@ -1032,13 +1037,13 @@ footer .footer-content .socials .socialIcons {
   border-radius: 30px;
 }
 .tour-specials .box .tour-name {
-  font-size: 44px;
+  font-size: 60px;
   margin-bottom: 10px;
   font-weight: bold;
   font-family: GScond;
 }
 .tour-specials .box .tour-price {
-  font-size: 20px;
+  font-size: 30px;
   margin-bottom: 40px;
   font-weight: bold;
   font-family: GScond;

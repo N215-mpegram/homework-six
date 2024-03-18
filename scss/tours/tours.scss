@@ -3,15 +3,23 @@
     // min-height: 400px;
     background-color: antiquewhite;
     margin: 0 auto;
-    margin-top: 48px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .tour-specials {
-    background-color: darkseagreen;
+    // background-color: darkseagreen;
     min-height: 400px;
+
+    .tsL {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+    }
 
     .box {
         @include tour-box();
+        margin-bottom: 50px;
 
         .site-button {
             @include site-buy-button();
@@ -21,14 +29,14 @@
         }
 
         .tour-name {
-            font-size: 44px;
+            font-size: 60px;
             margin-bottom: 10px;
             font-weight: bold;
             font-family: GScond;
         }
 
         .tour-price {
-            font-size: 20px;
+            font-size: 30px;
             margin-bottom: 40px;
             font-weight: bold;
             font-family: GScond;
