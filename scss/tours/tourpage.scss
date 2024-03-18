@@ -1,0 +1,48 @@
+.tour-page {
+    max-width: $content-width;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+    .tp-header {
+        height: 410px;
+        @include add-background-image("../images/tour-01.jpg");
+        position: relative;
+
+        .tp-header-font {
+            font-family: GScond;
+            font-size: 80px;
+            padding-top: 18px;
+            padding-left: 30px;
+            color: $site-white;
+        }
+
+        .tp-disclaimer-font {
+            font-family: GScond;
+            font-size: 30px;
+            color: $site-white;
+            position: absolute;
+            right: 5px;
+            bottom: -10px;
+        }
+    }
+
+    .tp-images {
+        background-color: darkseagreen;
+        min-height: 100px;
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        .tp-box {
+            @include tour-page-box();
+        }
+
+        .t-israel-1 {
+            @include tour-page-images("../images/tour-israel/israel-tour-01.jpg")
+        }
+
+    }
+}

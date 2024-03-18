@@ -6,8 +6,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;  
 }
 
 @mixin add-background-image($imageURL: "") {
@@ -26,4 +25,23 @@
     justify-content: center;
     padding: 12px 22px;
     border-radius: $radius;
+}
+
+@mixin tour-page-box($imageURL: "") {
+    width: 298px;
+    height: 347px;
+    background-color: hotpink;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+@mixin tour-page-images($imageURL: "") {
+    background-image: url($imageURL);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
