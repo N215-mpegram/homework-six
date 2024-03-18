@@ -26,6 +26,34 @@
             bottom: -10px;
         }
     }
+    .israel-header {
+        @include add-background-image("../images/tour-01.jpg")
+    }
+    .usa-header {
+        @include add-background-image("../images/tour-02.jpg")
+    }
+    .aus-header {
+        @include add-background-image("../images/tour-03.jpg")
+    }
+    .nz-header {
+        @include add-background-image("../images/tour-04.jpg")
+    }
+    .france-header {
+        @include add-background-image("../images/tour-05.jpg")
+    }
+    .egypt-header {
+        @include add-background-image("../images/tour-06.jpg")
+    }
+    .japan-header {
+        @include add-background-image("../images/tour-07.jpg")
+    }        
+    .canada-header {
+        @include add-background-image("../images/tour-08.jpg")
+    }
+    .uae-header {
+        @include add-background-image("../images/tour-09.jpg")
+    }
+
 
     .tp-images {
         // background-color: darkseagreen;
@@ -39,9 +67,7 @@
             @include tour-page-box();
             margin-top: 40px;
         }
-        .israel-header {
-            @include add-background-image("../images/tour-01.jpg")
-        }
+
         .t-israel-1 {
             @include tour-page-images("../images/tour-israel/israel-tour-01.jpg")
         }
