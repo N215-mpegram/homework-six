@@ -29,20 +29,98 @@
     }
 
     .tp-images {
-        background-color: darkseagreen;
+        // background-color: darkseagreen;
         min-height: 100px;
-        margin-top: 40px;
+        // margin-top: 40px;
         display: flex;
         align-items: center;
         justify-content: space-between;
         
         .tp-box {
             @include tour-page-box();
+            margin-top: 40px;
         }
 
         .t-israel-1 {
             @include tour-page-images("../images/tour-israel/israel-tour-01.jpg")
         }
-
+        .t-israel-2 {
+            @include tour-page-images("../images/tour-israel/israel-tour-02.jpg")
+        }
+        .t-israel-3 {
+            @include tour-page-images("../images/tour-israel/israel-tour-03.jpg")
+        }
+        .t-usa-1 {
+            @include tour-page-images("../images/tour-usa/usa-tour-01.jpg")
+        }
+        .t-usa-2 {
+            @include tour-page-images("../images/tour-usa/usa-tour-02.jpg")
+        }
+        .t-usa-3 {
+            @include tour-page-images("../images/tour-usa/usa-tour-03.jpg")
+        }
+        .t-aus-1 {
+            @include tour-page-images("../images/tour-aus/aus-tour-01.jpg")
+        }
+        .t-aus-2 {
+            @include tour-page-images("../images/tour-aus/aus-tour-02.jpg")
+        }
+        .t-aus-3 {
+            @include tour-page-images("../images/tour-aus/aus-tour-03.jpg")
+        }
+        .t-nz-1 {
+            @include tour-page-images("../images/tour-nz/nz-tour-01.jpg")
+        }
+        .t-nz-2 {
+            @include tour-page-images("../images/tour-nz/nz-tour-02.jpg")
+        }
+        .t-nz-3 {
+            @include tour-page-images("../images/tour-nz/nz-tour-03.jpg")
+        }
+        .t-france-1 {
+            @include tour-page-images("../images/tour-france/france-tour-01.jpg")
+        }
+        .t-france-2 {
+            @include tour-page-images("../images/tour-france/france-tour-02.jpg")
+        }
+        .t-france-3 {
+            @include tour-page-images("../images/tour-france/france-tour-03.jpg")
+        }
+        .t-egypt-1 {
+            @include tour-page-images("../images/tour-egypt/egypt-tour-01.jpg")
+        }
+        .t-egypt-2 {
+            @include tour-page-images("../images/tour-egypt/egypt-tour-02.jpg")
+        }
+        .t-egypt-3 {
+            @include tour-page-images("../images/tour-egypt/egypt-tour-03.jpg")
+        }
+        .t-japan-1 {
+            @include tour-page-images("../images/tour-japan/japan-tour-01.jpg")
+        }
+        .t-japan-2 {
+            @include tour-page-images("../images/tour-japan/japan-tour-02.jpg")
+        }
+        .t-japan-3 {
+            @include tour-page-images("../images/tour-japan/japan-tour-03.jpg")
+        }
+        .t-canada-1 {
+            @include tour-page-images("../images/tour-canada/canada-tour-01.jpg")
+        }
+        .t-canada-2 {
+            @include tour-page-images("../images/tour-canada/canada-tour-02.jpg")
+        }
+        .t-canada-3 {
+            @include tour-page-images("../images/tour-canada/canada-tour-03.jpg")
+        }
+        .t-uae-1 {
+            @include tour-page-images("../images/tour-uae/uae-tour-01.jpg")
+        }
+        .t-uae-2 {
+            @include tour-page-images("../images/tour-uae/uae-tour-02.jpg")
+        }
+        .t-uae-3 {
+            @include tour-page-images("../images/tour-uae/uae-tour-03.jpg")
+        }
     }
 }
