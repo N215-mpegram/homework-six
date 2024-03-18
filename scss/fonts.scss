@@ -1,0 +1,81 @@
+@font-face {
+    font-family: GSlight;
+    src: url(../fonts/Gill\ Sans\ Light.otf);
+  }
+  @font-face {
+    font-family: GSmedreg;
+    src: url(../fonts/Gill\ Sans\ Medium.otf);
+  }
+  @font-face {
+    font-family: PNthin;
+    src: url(../fonts/Proxima-Nova-Thin.otf);
+  }
+  @font-face {
+    font-family: GScond;
+    src: url(../fonts/GillSans\ Condensed.otf);
+  }
+  @font-face {
+    font-family: GSitalic;
+    src: url(../fonts/Gill\ Sans\ Italic.otf);
+  }
+  @font-face {
+    font-family: PnXCONthin;
+    src: url(../fonts/FontsFree-Net-Proxima-Nova-ExCn-Thin.otf);
+  }
+  @font-face {
+    font-family: PnCONthin;
+    src: url(../fonts/FontsFree-Net-Proxima-Nova-Cond-Thin.otf);
+  }
+
+.Nav-White {
+  border-bottom: 2px solid #fff;
+  color: #fff;
+}
+
+.Font-nav-W {
+  color: #fff;
+}
+
+.Nav-Black {
+  border-bottom: 2px solid #000;
+  color: #000;
+}
+
+.Font-nav-B {
+  color: #000;
+}
+
+.font1 {
+    font-family: GSmedreg;
+    font-size: 15px;
+    color: white;
+}
+
+.fontHead {
+    font-family: PNthin;
+    font-size: 60px;
+    color: black;
+}
+.fontHead2 {
+    font-family: PNthin;
+    font-size: 60px;
+    color: white;
+}
+
+.fontSpecial1 {
+    font-family: GScond;
+    font-size: 60px;
+    color: white;
+}
+
+.fontSpecial2 {
+    font-family: PNthin;
+    font-size: 30px;
+    color: white;
+}
+
+.fontCallT {
+    font-family: GSitalic;
+    font-size: 20px;
+    color: white;
+}

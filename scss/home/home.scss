@@ -1,0 +1,724 @@
+.home {
+    margin-top: -65px;
+
+    .hero {
+        height: 500px;
+        // background-color: brown;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(../images/hero.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .callout {
+            padding-top: 140px;
+            text-align: center;
+            
+
+            .call-text {
+                width: 416px;
+                height: 46px;
+                text-align: center;
+                margin: auto;
+                padding-top: 31px;
+            }
+
+            .read-more {
+                width: 122px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                background-color: $site-blue;
+                margin: auto;
+                margin-top: 90px;
+            }
+        }
+
+    }
+
+    .specials {
+        max-width: $home-content-width;
+        margin: -50px auto 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        .SPbox1 {
+            height: 304px;
+            width: 236px;
+            // background-color: mediumorchid;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(../images/tour-01.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            .placeName {
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                margin-top: 42px;
+            }
+
+            .placePrice {
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                margin-top: -2px;
+            }
+
+            .learn-more {
+                width: 133px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                background-color: $site-blue;
+                border-radius: 30px;
+                margin: auto;
+                margin-top: 39px;
+                margin-bottom: 56px;
+            }
+        }
+
+        .SPbox2 {
+            height: 304px;
+            width: 236px;
+            // background-color: mediumorchid;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(../images/tour-02.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            .placeName {
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                margin-top: 42px;
+            }
+
+            .placePrice {
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                margin-top: -2px;
+            }
+
+            .learn-more {
+                width: 133px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                background-color: $site-blue;
+                border-radius: 30px;
+                margin: auto;
+                margin-top: 39px;
+                margin-bottom: 56px;
+            }
+        }
+
+        .SPbox3 {
+            height: 304px;
+            width: 236px;
+            // background-color: mediumorchid;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(../images/tour-03.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            .placeName {
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                margin-top: 42px;
+            }
+
+            .placePrice {
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                margin-top: -2px;
+            }
+
+            .learn-more {
+                width: 133px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                background-color: $site-blue;
+                border-radius: 30px;
+                margin: auto;
+                margin-top: 39px;
+                margin-bottom: 56px;
+            }
+        }
+    }
+
+    .header {
+        width: $home-content-width;
+        margin: auto;
+        margin-top: 58px;
+        margin-bottom: 33px;
+    }
+
+    .form {
+        width: $home-content-width;
+        margin: 0 auto;
+        min-height: 200px;
+        // background-color: coral;
+
+        .padding1 {
+            height: 20px;
+            width: 100%;
+        }
+
+        .padding2 {
+            height: 37px;
+            width: 100%;
+        }
+
+        input {
+            height: 58px;
+            width: 100%;
+            border: 2px solid;
+            border-color: $site-blue;
+            padding-left: 20px;
+            font-size: 18px;
+            font-family: GSlight;
+        }
+
+        .form-slotA {
+            width: $home-content-width;
+            height: 136px;
+            align-items: center;    
+            margin-bottom: 20px;
+        
+            
+            .form-box1 {
+                width: 344px;
+                height: 58px;
+                // padding-left: 0px;
+            }
+            .form-box2 {
+                width: 453px;
+                height: 58px;
+                margin-left: 17px;
+            }
+
+        }
+
+        label {
+            font-size: 18px;
+            font-family: GSlight;
+        }
+
+        .cal {
+            width: 100%;
+            align-items: center;
+            margin-bottom: 20px;
+            // background-color: darkgray;
+
+            .cal-in {
+                position: relative; 
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 20px;
+                
+    
+                .label-in {
+                    font-size: 18px;
+                    font-family: GSlight;
+                    width: 100px;
+                    // background-color: brown;
+                    // margin: 0 auto;
+                }
+       
+                   input {
+                    height: 58px;
+                    //    width: 85%;
+                       border: 2px solid;
+                       border-color: $site-blue;
+                       padding-left: 20px;
+                    //    margin-right: 0;
+                       font-size: 18px;
+                       font-family: GSlight;
+                    //    background-color: burlywood;
+                       justify-self: stretch;
+                       margin-left: 46px;
+    
+                  }
+                  .cal-box {
+                    width: 30px;
+                    height: 30px;
+                    // background-color: darkolivegreen;
+                    position: absolute;
+                    right: 18px;
+                    bottom: 13px;
+                    color: black;
+                    font-size: 25px;
+                }
+              }
+   
+           .cal-out {
+            position: relative; 
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+
+            .label-out {
+                font-size: 18px;
+                font-family: GSlight;
+                width: 100px;
+                // background-color: brown;
+                // margin: 0 auto;
+            }
+   
+               input {
+                height: 58px;
+                //    width: 85%;
+                   border: 2px solid;
+                   border-color: $site-blue;
+                   padding-left: 20px;
+                //    margin-right: 0;
+                   font-size: 18px;
+                   font-family: GSlight;
+                //    background-color: burlywood;
+                   justify-self: stretch;
+                   margin-left: 46px;
+
+              }
+              .cal-box {
+                width: 30px;
+                height: 30px;
+                // background-color: darkolivegreen;
+                position: absolute;
+                right: 18px;
+                bottom: 13px;
+                color: black;
+                font-size: 25px;
+            }
+          }
+
+
+        }
+
+        .ACR {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+            .adults {
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                
+
+                input {
+                    height: 58px;
+                    width: 103px;
+                    border: 2px solid;
+                    border-color: $site-blue;
+                    padding-left: 20px;
+                    margin-left: 53px;
+                    font-size: 18px;
+                    font-family: GSlight;
+ 
+                }
+                 .ACR-arrow {
+                     width: 20px;
+                     height: 10px;
+                    //  background-color: darkolivegreen;
+                     position: absolute;
+                     right: 16px;
+                     bottom: 34px;
+                     font-size: 30px;
+                 }
+            }
+
+            .children {
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                
+
+                input {
+                    height: 58px;
+                    width: 103px;
+                    border: 2px solid;
+                    border-color: $site-blue;
+                    padding-left: 20px;
+                    margin-left: 53px;
+                    font-size: 18px;
+                    font-family: GSlight;
+ 
+                }
+                .ACR-arrow {
+                    width: 20px;
+                    height: 10px;
+                   //  background-color: darkolivegreen;
+                    position: absolute;
+                    right: 16px;
+                    bottom: 34px;
+                    font-size: 30px;
+                }
+            }
+
+            .rooms {
+                position: relative;
+
+                input {
+                    height: 58px;
+                    width: 103px;
+                    border: 2px solid;
+                    border-color: $site-blue;
+                    padding-left: 20px;
+                    margin-left: 53px;
+                    font-size: 18px;
+                    font-family: GSlight;
+ 
+                }
+                .ACR-arrow {
+                    width: 20px;
+                    height: 10px;
+                   //  background-color: darkolivegreen;
+                    position: absolute;
+                    right: 16px;
+                    bottom: 34px;
+                    font-size: 30px;
+                }
+            }
+
+        }
+
+        .message {
+            width: $home-content-width;
+            height: 192px;
+            padding-top: 20px;
+            margin-bottom: 37px;
+            
+            .mes-box {
+                height: 192px;
+                width: 100%;
+                padding-bottom: 130px;
+                
+                input {
+                    width: 100%;
+                    border: 2px solid;
+                    border-color: $site-blue;
+                    padding-left: 20px;
+                    font-size: 18px;
+                    font-family: GSlight;
+                }
+            }
+        }
+
+        .submit-button {
+            width: 80%;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            background-color: $site-blue;
+            border-radius: 30px;
+            margin: auto;
+            margin-bottom: 100px;
+        }
+
+    }
+
+}
+
+@media all and (max-width: 1000px) {
+
+    .home {
+       width: 100%;
+        // background-color: aquamarine;
+
+
+        .hero {
+            height: 500px;
+            width: 100%;
+            // background-color: brown;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(../images/hero.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+    
+            .callout {
+                padding-top: 140px;
+                text-align: center;
+                
+    
+                .call-text {
+                    max-width: 360px;
+                    min-height: 46px;
+                    text-align: center;
+                    margin: auto;
+                    padding-top: 31px;
+                }
+    
+                .read-more {
+                    width: 122px;
+                    height: 40px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    background-color: $site-blue;
+                    margin: auto;
+                    margin-top: 90px;
+                }
+            }
+    
+        }
+
+        .specials {
+            flex-direction: column;
+            // background-color: cornflowerblue;
+            width: 100%;
+            height: 980px;
+            margin: -50px auto 0 auto;
+
+            
+            .boxs {
+                margin-bottom: 30px;  
+            }
+        }
+
+        .header {
+            width: 90%;
+            margin-top: 58px;
+            margin-bottom: 33px;
+            text-align: center;
+        }
+
+        .form {
+            width: 90%;
+            // background-color: chocolate;
+            margin: auto;
+
+            .padding1 {
+                display: none;
+                // height: 20px;
+                // width: 100%;
+            }
+    
+            .padding2 {
+                display: none;
+                // height: 37px;
+                // width: 100%;
+            }
+    
+            input {
+                height: 58px;
+                width: 100%;
+                border: 2px solid;
+                border-color: $site-blue;
+                padding-left: 20px;
+                font-size: 18px;
+                font-family: GSlight;
+                // background-color: greenyellow;
+            }
+
+    
+            .form-slotA {
+                width: 100%; 
+                height: 312px;
+                position: relative;
+                justify-content: left;
+                // margin-left: 10px;
+                
+                .form-box1 {
+                    width: 100%;
+                    height: 58px;
+                    margin-bottom: 20px;
+                }
+                .form-box2 {
+                    margin-left: 0;
+                    width: 100%;
+                    height: 58px;
+                    margin-bottom: 20px;
+                }
+    
+            }
+    
+            label {
+                font-size: 18px;
+                font-family: GSlight;
+                // width: 100px;
+                // background-color: blueviolet;
+            }
+    
+            .cal {
+                width: 100%;
+                align-items: center;
+                // margin-bottom: 20px;
+                // background-color: darkgray;
+                
+    
+                .cal-in {
+                    position: relative;
+                    // background-color: darkgray;
+                    margin-bottom: 20px;
+                    display: flex;
+
+                    .label-in {
+                        font-size: 18px;
+                        font-family: GSlight;
+                        min-width: 100px;
+                        // background-color: brown;
+                        // margin: 0 auto;
+                        align-self: center;
+                    }
+    
+                    input {
+                       height: 58px;
+                    //    width: 85%;
+                       border: 2px solid;
+                       border-color: $site-blue;
+                       padding-left: 20px;
+                    //    margin-right: 0;
+                       font-size: 18px;
+                       font-family: GSlight;
+                    //    background-color: burlywood;
+                       justify-self: stretch;
+                   }
+                    .cal-box {
+                        width: 30px;
+                        height: 30px;
+                        // background-color: darkolivegreen;
+                        position: absolute;
+                        right: 18px;
+                        bottom: 13px;
+                        color: black;
+                        font-size: 25px;
+                    }
+               }
+       
+               .cal-out {
+                position: relative;
+                // background-color: darkgray;
+                margin-bottom: 20px;
+                display: flex;
+
+                .label-out {
+                    font-size: 18px;
+                    font-family: GSlight;
+                    // width: 15%;
+                    min-width: 100px;
+                    // background-color: brown;
+                    // margin: 0 auto;
+                    align-self: center;
+                }
+
+                input {
+                   height: 58px;
+                //    width: 85%;
+                   border: 2px solid;
+                   border-color: $site-blue;
+                   padding-left: 20px;
+                //    margin-right: 0;
+                   font-size: 18px;
+                   font-family: GSlight;
+                //    background-color: burlywood;
+                   justify-self: stretch;
+               }
+                .cal-box {
+                    width: 30px;
+                    height: 30px;
+                    // background-color: darkolivegreen;
+                    position: absolute;
+                    right: 18px;
+                    bottom: 13px;
+                    color: black;
+                    font-size: 25px;
+                }
+           }
+    
+    
+            }
+    
+            .ACR {
+                width: 250px;
+                display: flex;
+                // justify-content: space-between;
+                flex-direction: column;
+                // align-items: center;
+                // justify-content: left;
+                margin-bottom: 20px;
+                // background-color: burlywood;
+                
+                .adults {
+                    width: 250px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-left: 0px;
+                    margin-bottom: 10px;
+                    // background-color: cadetblue;
+                }
+    
+                .children {
+                    width: 250px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-left: 0;
+                    margin-bottom: 10px;
+                    // background-color: cadetblue;
+
+                }
+    
+                .rooms {
+                    width: 250px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-left: 0;
+                    // background-color: cadetblue;
+
+                }
+    
+            }
+    
+        .message {
+            width: 100%;
+            height: 192px;
+            padding-top: 20px;
+            margin-bottom: 37px;
+            
+            .mes-box {
+            height: 192px;
+            width: 100%;
+            padding-bottom: 130px;
+
+                input {
+                    width: 100%;
+                    border: 2px solid;
+                    border-color: $site-blue;
+                    padding-left: 20px;
+                    font-size: 18px;
+                    font-family: GSlight;
+                }
+            }
+            }
+    
+            .submit-button {
+                width: 80%;
+                height: 60px;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                background-color: $site-blue;
+                border-radius: 30px;
+                margin: 0 auto;
+                margin-bottom: 100px;
+            }
+    
+        }
+    }
+}

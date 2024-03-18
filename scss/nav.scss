@@ -1,0 +1,83 @@
+nav {
+  height: 65px;
+  max-width: $content-width;
+  margin: 0 auto;
+//   background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  // border-bottom: 2px solid #fff;
+  position: relative;
+  z-index: 99;
+
+    a {
+    text-decoration: none;
+    // color: #fff;
+    font-family: GSmedreg;
+    font-size: 15px;
+    }
+
+    .logo-W {
+        width: 92px;
+        height: 42px;
+        background-image: url(../images/logo-white.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .logo-B {
+      width: 92px;
+      height: 42px;
+      background-image: url(../images/logo-black.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+    .links {
+        width: 55%;
+        height: 22px;
+        // background-color: antiquewhite;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+
+    .navLine {
+        border-left: 1px solid $site-blue;
+        height: 22px;
+    }
+
+}
+
+@media all and (max-width: 1000px) {
+  nav {
+    height: 65px;
+    max-width: 90%;
+    margin: 0 auto;
+    // background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // border-bottom: 2px solid #fff;
+    position: relative;
+    z-index: 99;
+  
+      a {
+      text-decoration: none;
+      // color: #fff;
+      font-family: GSmedreg;
+      font-size: 15px;
+      }  
+      .logo {
+
+        margin-left: 10px;
+      }
+      .links {
+          width: 350px;
+          padding-right: 10px;
+
+      }
+  }
+}
