@@ -1366,4 +1366,13 @@ footer .footer-content .socials .socialIcons {
   color: #ffffff;
 }
 
+@media all and (max-width: 1000px) {
+  .tour-page {
+    width: 90%;
+  }
+  .tour-page .tp-images {
+    flex-direction: column;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
